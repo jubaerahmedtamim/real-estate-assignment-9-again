@@ -44,7 +44,7 @@ const Navbar = () => {
                     {navLinks}
                 </ul>
             </div>
-            <div className="navbar-end tooltip tooltip-right"  data-tip={user?.displayName || "Not available"}>
+            <div className="navbar-end tooltip tooltip-bottom"  data-tip={user?.displayName || "Not available"}>
                 {
                     user
                         ? <div className="dropdown dropdown-end">

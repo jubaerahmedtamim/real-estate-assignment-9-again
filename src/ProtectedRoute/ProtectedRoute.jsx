@@ -17,7 +17,7 @@ const ProtectedRoute = ({children}) => {
     if(user){
         return children;
     }
-    return <Navigate state={{from}} to='/login'></Navigate>
+    return <Navigate state={from} to='/login'></Navigate>
 };
 
 export default ProtectedRoute;
