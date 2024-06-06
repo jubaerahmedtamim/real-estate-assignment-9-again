@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Website Name: Domicile
 
 Live Link: 
@@ -24,3 +25,8 @@ Here is the npm package names used in the website.
 
 
 
+=======
+# Domicile
+
+
+>>>>>>> 45cf74faf418f1cce00f3d871eab02bfcc7c6b2d
