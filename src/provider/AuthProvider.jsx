@@ -29,12 +29,14 @@ const AuthProvider = ({ children }) => {
     }
 
     const updateUserInfo = (name, image_url) => {
+        setLoading(true);
         return updateProfile(auth.currentUser, {
             displayName: name, photoURL: image_url,
         });
     }
 
     const logOut = () => {
+        setLoading(true);
         return signOut(auth);
     }
 
@@ -44,11 +46,10 @@ const AuthProvider = ({ children }) => {
                 setLoading(false);
                 setUser(currentUser);
             }
-            else {
-                console.log("user is signout");
-            }
-        })
-        return () => unSubscribe();
+        });
+        return () => {
+            unSubscribe();
+        };
     }, [])
 
     const authInfo = {

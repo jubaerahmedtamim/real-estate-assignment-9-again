@@ -19,12 +19,12 @@ export const router = createBrowserRouter([
             {
                 path: '/',
                 element: <Home></Home>,
-                loader: () => fetch('/public/residence.json'),
+                loader: () => fetch('/residence.json'),
             },
             {
                 path: '/property-details/:id',
                 element: <ProtectedRoute><PropertyDetails></PropertyDetails></ProtectedRoute>,
-                loader:() => fetch('/public/residence.json'),
+                loader:() => fetch('/residence.json'),
             },
             {
                 path: '/login',

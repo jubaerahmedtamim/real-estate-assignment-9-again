@@ -1,32 +1,9 @@
-<<<<<<< HEAD
-Website Name: Domicile
+# React + Vite
 
-Live Link: 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Features & characteristics of Domicile
-    => User can find their resident.
-    => login
-    => Registration
-    => Sign out
-    => Private Route
-    => An user can update his/her profile
-    => user can view their profile
+Currently, two official plugins are available:
 
-Here is the npm package names used in the website.
-    $ AOS package
-    $ react hook form
-    $ react tostify
-    $ react router dom
-    $ swiper slider
-    $ react icons
-    $ firebase
-    $ tailwindcss & daisyUI
-    
-
-
-
-=======
-# Domicile
-
-
->>>>>>> 45cf74faf418f1cce00f3d871eab02bfcc7c6b2d
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+"# real-estate-assignment-9-again" 
