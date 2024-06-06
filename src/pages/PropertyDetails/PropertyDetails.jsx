@@ -1,8 +1,9 @@
 
 import React from 'react';
-import { BiArea } from 'react-icons/bi';
-import { FaParking } from 'react-icons/fa';
+import { BiArea, BiCctv } from 'react-icons/bi';
+import { FaCamera, FaParking } from 'react-icons/fa';
 import { FaBackward } from 'react-icons/fa6';
+import { GiField } from 'react-icons/gi';
 import { TbCategory, TbCoinTaka, TbCurrentLocation } from 'react-icons/tb';
 import { Link, useLoaderData, useParams } from 'react-router-dom';
 
@@ -39,7 +40,7 @@ const PropertyDetails = () => {
                     <h1 className='text-2xl mb-4'>Facilities</h1>
                     <ul className='flex flex-col lg:flex-row lg:justify-around  '>
                         {
-                            facilities.map((facility,index) => <li key={index} className='border-4 border-double px-4 py-2 rounded-lg text-sm font-semibold' >{facility}</li>)
+                            facilities.map((facility, index) => <li key={index} className='border-4 border-double px-4 py-2 rounded-lg text-sm font-semibold' >{facility}</li>)
                         }
                     </ul>
                 </div>
@@ -47,12 +48,20 @@ const PropertyDetails = () => {
                     <Link to='/'><button className='btn text-white btn-primary mt-4'> <FaBackward></FaBackward> Back to Home</button></Link>
                 </div>
             </div>
-            <div>
-                <h2 className="text-3xl text-center">Spacial</h2>
-                <div>
-                    <div className='text-'>
+            <div className='mb-10'>
+                <h2 className="text-3xl text-center mb-6">Spacial Facilities</h2>
+                <div className='flex justify-around'>
+                    <div className='text-2xl border rounded-lg p-3'>
                         <FaParking></FaParking>
-                        <span>Parking</span>
+                        <p>Parking Garage</p>
+                    </div>
+                    <div className='text-2xl border rounded-lg p-3'>
+                        <BiCctv />
+                        <span>CCTV Camera</span>
+                    </div>
+                    <div className='text-2xl border rounded-lg p-3'>
+                        <GiField />
+                        <span> Open Space Areas</span>
                     </div>
                 </div>
             </div>
