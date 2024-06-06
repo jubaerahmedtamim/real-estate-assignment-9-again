@@ -1,0 +1,102 @@
+[
+    {
+        "image_url": "https://i.ibb.co/cYYHs4Y/moder-home.jpg",
+        "estate_title": "Modern Single-Family Home",
+        "id": 1,
+        "segment_name": "Single-family homes",
+        "description": "A beautiful modern single-family home with a spacious garden and updated amenities.",
+        "price": "50,00,000 Taka",
+        "status": "sale",
+        "area": "2500 sq ft",
+        "location": "123 Maple Street, Springfield",
+        "facilities": [
+            "living room",
+            "swimming pool",
+            "kitchen"
+        ]
+    },
+    {
+        "image_url": "https://i.ibb.co/FYDtNGv/Cozy-Townhouse.jpg",
+        "estate_title": "Cozy Townhouse",
+        "id": 2,
+        "segment_name": "Townhouses",
+        "description": "A cozy townhouse located in a friendly neighborhood with easy access to downtown.",
+        "price": "30,00,000 Taka",
+        "status": "sale",
+        "area": "1800 sq ft",
+        "location": "456 Oak Avenue, Springfield",
+        "facilities": [
+            "living room",
+            "garage",
+            "kitchen"
+        ]
+    },
+    {
+        "image_url": "https://i.ibb.co/Dr7ytjz/joseph-albanese-xx0o-SB1-Yx-RE-unsplash.jpg",
+        "estate_title": "Luxury Apartment",
+        "id": 3,
+        "segment_name": "Apartments",
+        "description": "A luxurious apartment with stunning city views and high-end finishes.",
+        "price": "2,50,000 Taka/month",
+        "status": "rent",
+        "area": "1200 sq ft",
+        "location": "789 Pine Road, Springfield",
+        "facilities": [
+            "living room",
+            "gym",
+            "kitchen"
+        ]
+    },
+    {
+        "image_url": "https://i.ibb.co/9NQCS66/Student-Housing.jpg",
+        "estate_title": "Student Housing",
+        "id": 4,
+        "segment_name": "Student housing",
+        "description": "Affordable student housing close to the university, with shared common areas.",
+        "price": "80,000 Taka/month",
+        "status": "rent",
+        "area": "500 sq ft",
+        "location": "101 College Blvd, Springfield",
+        "facilities": [
+            "common room",
+            "study area",
+            "kitchen"
+        ]
+    },
+    {
+        "image_url": "https://i.ibb.co/kqvCh4S/Senior-Living-Community.jpg",
+        "estate_title": "Senior Living Community",
+        "id": 5,
+        "segment_name": "Senior living communities",
+        "description": "A peaceful senior living community with healthcare facilities and recreational activities.",
+        "price": "40,00,000 Taka",
+        "status": "sale",
+        "area": "2200 sq ft",
+        "location": "202 Sunset Lane, Springfield",
+        "facilities": [
+            "living room",
+            "healthcare center",
+            "kitchen"
+        ]
+    },
+    {
+        "image_url": "https://i.ibb.co/0s4P8H4/Beachside-Vacation-Rental.jpg",
+        "estate_title": "Beachside Vacation Rental",
+        "id": 6,
+        "segment_name": "Vacation rentals",
+        "description": "A luxurious beachside vacation rental with stunning ocean views and modern amenities.",
+        "price": "1,00,000 Taka/night",
+        "status": "rent",
+        "area": "3000 sq ft",
+        "location": "303 Ocean Drive, Springfield",
+        "facilities": [
+            "living room",
+            "swimming pool",
+            "kitchen"
+        ]
+    }
+]
+
+
+
+
